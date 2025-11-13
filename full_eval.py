@@ -50,22 +50,22 @@ if not args.skip_training:
     start_time = time.time()
     for scene in mipnerf360_outdoor_scenes:
         source = args.mipnerf360 + "/" + scene
-        os.system("python train.py -s " + source + " -i images_4 -m " + args.output_path + "/" + scene + common_args)
+        os.system("python main.py -s " + source + " -i images_4 -m " + args.output_path + "/" + scene + common_args)
     for scene in mipnerf360_indoor_scenes:
         source = args.mipnerf360 + "/" + scene
-        os.system("python train.py -s " + source + " -i images_2 -m " + args.output_path + "/" + scene + common_args)
+        os.system("python main.py -s " + source + " -i images_2 -m " + args.output_path + "/" + scene + common_args)
     m360_timing = (time.time() - start_time)/60.0
 
     start_time = time.time()
     for scene in tanks_and_temples_scenes:
         source = args.tanksandtemples + "/" + scene
-        os.system("python train.py -s " + source + " -m " + args.output_path + "/" + scene + common_args)
+        os.system("python main.py -s " + source + " -m " + args.output_path + "/" + scene + common_args)
     tandt_timing = (time.time() - start_time)/60.0
 
     start_time = time.time()
     for scene in deep_blending_scenes:
         source = args.deepblending + "/" + scene
-        os.system("python train.py -s " + source + " -m " + args.output_path + "/" + scene + common_args)
+        os.system("python main.py -s " + source + " -m " + args.output_path + "/" + scene + common_args)
     db_timing = (time.time() - start_time)/60.0
 
 with open(os.path.join(args.output_path,"timing.txt"), 'w') as file:
