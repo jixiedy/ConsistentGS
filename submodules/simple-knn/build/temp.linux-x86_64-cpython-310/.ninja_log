@@ -1,0 +1,7 @@
+# ninja log v5
+0	12197	1731030738975819693	/data02/dy/projects/gaussian-splatting_new/submodules/simple-knn/build/temp.linux-x86_64-cpython-310/simple_knn.o	d15a9d2ee010a3b9
+0	18424	1731030745187760760	/data02/dy/projects/gaussian-splatting_new/submodules/simple-knn/build/temp.linux-x86_64-cpython-310/ext.o	6c2fee831fef8f7a
+0	59513	1731030786275370835	/data02/dy/projects/gaussian-splatting_new/submodules/simple-knn/build/temp.linux-x86_64-cpython-310/spatial.o	78c5d008e21dfb1b
+1	11370	1735832136391800474	/data02/dy/projects/gaussian-splatting_dof_match_mono/submodules/simple-knn/build/temp.linux-x86_64-cpython-310/simple_knn.o	89c50ec167da901a
+0	16554	1735832141563753702	/data02/dy/projects/gaussian-splatting_dof_match_mono/submodules/simple-knn/build/temp.linux-x86_64-cpython-310/ext.o	781c9d4609c1bccf
+1	53290	1735832178275421408	/data02/dy/projects/gaussian-splatting_dof_match_mono/submodules/simple-knn/build/temp.linux-x86_64-cpython-310/spatial.o	6457963ea880fe3b
