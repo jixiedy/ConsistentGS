@@ -25,13 +25,14 @@ We gratefully acknowledge the foundational work of [3D Gaussian Splatting](https
 
 ## Publication
 
-*To be published on arXiv*
-
 ```bibtex
-@article{consistentgs2025,
-  title={Depth-Consistent 3D Gaussian Splatting via Physical Defocus Modeling and Multi-View Geometric Supervision},
-  author={[Authors]},
-  journal={arXiv preprint},
-  year={2025}
+@misc{deng2025depthconsistent3dgaussiansplatting,
+      title={Depth-Consistent 3D Gaussian Splatting via Physical Defocus Modeling and Multi-View Geometric Supervision}, 
+      author={Yu Deng and Baozhu Zhao and Junyan Su and Xiaohan Zhang and Qi Liu},
+      year={2025},
+      eprint={2511.10316},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.10316}, 
 }
 ```
